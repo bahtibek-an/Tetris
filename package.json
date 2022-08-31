@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "project",
+  "description": "***",
+  "version": "1.0.0",
+  "main": "html_server.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.us.qwasar.io:my_tetris_51579_xqu5y_/my_tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

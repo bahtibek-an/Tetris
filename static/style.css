@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #000;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.logoTetris{
+    padding-bottom: 30px;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.author{
+    color: #fff;
+    position: absolute;
+    top: 45%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.item{
+    margin: 40px 20px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    width: 400px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.copyright > p{
+    padding: 5px 0;
+}
+
+.btnClose{
+    position: absolute;
+    right: 0;
+}
+
+.icon{
+    height: 2px;
+    width: 20px;
+    top: 0;
+    position: absolute;
+    background-color: #fff;
+}
+
+.icon::after{
+    content: "";
+    bottom: 0;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    background-color: #fff;
+}
+
+/* .wrapper{
+    background: rgba(102, 102, 102, 0.5);
+} */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="screen">
+            <div class="header">
+                <h1 class="logoTetris">Tetris</h1>
+            </div>
+            <canvas id="game"></canvas>
+            <audio id="myAudio">
+                <source src="./FX/mainSound.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>  
+        <div class="author">
+            <div class="item">
+                <div class="logo">
+                    <img src="https://seeklogo.com/images/T/tetris-logo-5F5DFBCE21-seeklogo.com.png" alt="">
+                </div>
+                <div class="copyright">
+                    <p>(1984 is the year the game was created):</p>
+                    <p>Tetris © 1985~2022 Tetris Holding.</p>
+                    <p>Tetris logos, Tetris theme song and Tetriminos are trademarks of Tetris Holding.</p>
+                    <p>The Tetris trade dress is owned by Tetris Holding. Licensed to The Tetris Company.</p>
+                    <p>Tetris Game Design by Alexey Pajitnov. Tetris Logo Design by Roger Dean.</p>
+                    <p>All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./views/script.js"></script>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
