@@ -3,10 +3,8 @@
     ▀█▀ █▀▀ ▀█▀ █▀█ █ █▀
     ░█░ ██▄ ░█░ █▀▄ █ ▄█
 
-    <a href="roaring-druid-8ed514.netlify.app"> Live demo </a>
-
-## Description
-    
+# Description
+   Link (https://630facba5364ed1aa4a208a2--roaring-druid-8ed514.netlify.app/)
 
 ## Installation
     To run the project you need to enter this command
